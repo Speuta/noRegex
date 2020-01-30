@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    "removeComments": true,
+    "sourceMap": true,
+    "declaration": true,
+    "lib": ["dom","es2017"]
+  },
+  "include": [
+    "src/**/**.ts"
+  ]
+}

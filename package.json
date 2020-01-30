@@ -1,0 +1,34 @@
+{
+  "name": "noregex",
+  "version": "0.1.0",
+  "description": "noRegex is a lightweight javascript library with no dependencies, made for those who don't want to blow their mind with regex syntax.  \r noRegex do not replace regex, it only simplify basic needs to validate what's inside a string, but do not test a pattern.",
+  "main": "dist/noRegex.min.js",
+  "directories": {},
+  "scripts": {
+    "test": "mocha",
+    "typescript": "rollup -c",
+    "build": "npm run typescript && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Speuta/noRegex.git"
+  },
+  "keywords": [
+    "regex",
+    "regexp"
+  ],
+  "author": "Speuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Speuta/noRegex/issues"
+  },
+  "homepage": "https://github.com/Speuta/noRegex#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.17.2",
+    "rollup-plugin-uglify": "^6.0.3",
+    "typescript": "3.7.5"
+  },
+  "dependencies": {}
+}
