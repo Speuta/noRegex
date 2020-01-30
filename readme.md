@@ -1,5 +1,7 @@
 # noRegex
 
+[![Build Status](https://travis-ci.com/Speuta/noRegex.svg?branch=master)](https://travis-ci.com/Speuta/noRegex)
+
 noRegex is a lightweight javascript library with no dependencies, made for those who don't want to blow their mind with regex syntax.  
 noRegex do not replace regex, it only simplify basic needs to validate what's inside a string, but do not test a pattern.
 
