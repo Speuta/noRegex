@@ -1,6 +1,6 @@
 {
   "name": "noregex",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "noRegex is a lightweight javascript library with no dependencies, made for those who don't want to blow their mind with regex syntax.  \r noRegex do not replace regex, it only simplify basic needs to validate what's inside a string, but do not test a pattern.",
   "main": "dist/noRegex.min.js",
   "directories": {},
